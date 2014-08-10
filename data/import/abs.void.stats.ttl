@@ -1,0 +1,1018 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix abs-dataset: <http://abs.270a.info/dataset/> .
+abs-dataset:ABORIGINAL_POP_PROJ
+    void:entities 82080 ;
+    void:triples 983748 ;
+    a void:Dataset .
+abs-dataset:ABORIGINAL_POP_PROJ_REMOTE
+    void:entities 7344 ;
+    void:triples 80826 ;
+    a void:Dataset .
+abs-dataset:ABS_ABORIGINAL_POPPROJ_INDREGION
+    void:entities 79920 ;
+    void:triples 879162 ;
+    a void:Dataset .
+abs-dataset:ABS_ANNUAL_ERP_ASGS
+    void:entities 62031 ;
+    void:triples 558321 ;
+    a void:Dataset .
+abs-dataset:ABS_ANNUAL_ERP_LGA
+    void:entities 13432 ;
+    void:triples 120930 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B01
+    void:entities 289548 ;
+    void:triples 9416214 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B01_LGA
+    void:entities 124632 ;
+    void:triples 1370994 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B01_SA1_SA
+    void:entities 441828 ;
+    void:triples 4860150 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B02
+    void:entities 21448 ;
+    void:triples 588046 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B02_LGA
+    void:entities 4616 ;
+    void:triples 46202 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B02_SA1_SA
+    void:entities 32728 ;
+    void:triples 327322 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B03
+    void:entities 375340 ;
+    void:triples 12206543 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B03_LGA
+    void:entities 161560 ;
+    void:triples 1777202 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B03_SA1_SA
+    void:entities 572740 ;
+    void:triples 6300560 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B04
+    void:entities 820386 ;
+    void:triples 26679210 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B04_LGA
+    void:entities 353124 ;
+    void:triples 3884406 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B04_SA1_SA
+    void:entities 1251846 ;
+    void:triples 13770432 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B05
+    void:entities 482580 ;
+    void:triples 17120454 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B05_LGA
+    void:entities 207720 ;
+    void:triples 2492682 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B05_SA1_SA
+    void:entities 736380 ;
+    void:triples 8836686 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B06
+    void:entities 321720 ;
+    void:triples 11413649 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B06_LGA
+    void:entities 138480 ;
+    void:triples 1661802 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B06_SA1_SA
+    void:entities 490920 ;
+    void:triples 5891166 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B07
+    void:entities 482580 ;
+    void:triples 17120454 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B07_LGA
+    void:entities 207720 ;
+    void:triples 2492682 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B07_SA1_SA
+    void:entities 736380 ;
+    void:triples 8836686 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B08
+    void:entities 546924 ;
+    void:triples 17786490 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B08_LGA
+    void:entities 235416 ;
+    void:triples 2589618 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B08_SA1_SA
+    void:entities 834564 ;
+    void:triples 9180456 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B09
+    void:entities 305634 ;
+    void:triples 9215772 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B09_LGA
+    void:entities 65778 ;
+    void:triples 723600 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B09_SA1_SA
+    void:entities 466374 ;
+    void:triples 5130156 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B10
+    void:entities 1544256 ;
+    void:triples 46566330 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B10_LGA
+    void:entities 332352 ;
+    void:triples 3655914 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B10_SA1_SA
+    void:entities 2356416 ;
+    void:triples 25922088 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B11
+    void:entities 619311 ;
+    void:triples 21472638 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B11_LGA
+    void:entities 225030 ;
+    void:triples 2700402 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B11_SA1_SA
+    void:entities 945021 ;
+    void:triples 11340378 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B12
+    void:entities 1050952 ;
+    void:triples 37284912 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B12_LGA
+    void:entities 452368 ;
+    void:triples 5428752 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B12_SA1_SA
+    void:entities 1603672 ;
+    void:triples 19244400 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B13
+    void:entities 402150 ;
+    void:triples 13078109 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B13_LGA
+    void:entities 173100 ;
+    void:triples 1904142 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B13_SA1_SA
+    void:entities 613650 ;
+    void:triples 6750276 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B14
+    void:entities 249333 ;
+    void:triples 8108424 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B14_LGA
+    void:entities 107322 ;
+    void:triples 1180584 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B14_SA1_SA
+    void:entities 380463 ;
+    void:triples 4185135 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B15
+    void:entities 217161 ;
+    void:triples 7062192 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B15_LGA
+    void:entities 93474 ;
+    void:triples 1028256 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B15_SA1_SA
+    void:entities 331371 ;
+    void:triples 3645123 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B16
+    void:entities 643440 ;
+    void:triples 22827174 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B16_LGA
+    void:entities 276960 ;
+    void:triples 3323562 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B16_SA1_SA
+    void:entities 981840 ;
+    void:triples 11782206 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B17
+    void:entities 1045590 ;
+    void:triples 37094940 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B17_LGA
+    void:entities 450060 ;
+    void:triples 5401140 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B17_SA1_SA
+    void:entities 1595490 ;
+    void:triples 19146300 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B18
+    void:entities 386064 ;
+    void:triples 13696337 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B18_LGA
+    void:entities 166176 ;
+    void:triples 1994154 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B18_SA1_SA
+    void:entities 589104 ;
+    void:triples 7069374 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B19
+    void:entities 321720 ;
+    void:triples 11413649 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B19_LGA
+    void:entities 138480 ;
+    void:triples 1661802 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B19_SA1_SA
+    void:entities 490920 ;
+    void:triples 5891166 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B20
+    void:entities 563010 ;
+    void:triples 19973814 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B20_LGA
+    void:entities 242340 ;
+    void:triples 2908122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B20_SA1_SA
+    void:entities 859110 ;
+    void:triples 10309446 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B21
+    void:entities 321720 ;
+    void:triples 11413649 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B21_LGA
+    void:entities 138480 ;
+    void:triples 1661802 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B21_SA1_SA
+    void:entities 490920 ;
+    void:triples 5891166 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B22
+    void:entities 563010 ;
+    void:triples 19974150 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B22_LGA
+    void:entities 242340 ;
+    void:triples 2908122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B22_SA1_SA
+    void:entities 859110 ;
+    void:triples 10309614 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B23
+    void:entities 772128 ;
+    void:triples 25399182 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B23_LGA
+    void:entities 166176 ;
+    void:triples 1994154 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B23_SA1_SA
+    void:entities 1178207 ;
+    void:triples 14138988 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B24
+    void:entities 386064 ;
+    void:triples 12555539 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B24_LGA
+    void:entities 166176 ;
+    void:triples 1827978 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B24_SA1_SA
+    void:entities 589104 ;
+    void:triples 6480816 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B25
+    void:entities 123326 ;
+    void:triples 4010682 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B25_LGA
+    void:entities 53084 ;
+    void:triples 583966 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B25_SA1_SA
+    void:entities 188186 ;
+    void:triples 2070088 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B26
+    void:entities 241290 ;
+    void:triples 7275636 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B26_LGA
+    void:entities 51930 ;
+    void:triples 571272 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B26_SA1_SA
+    void:entities 368190 ;
+    void:triples 4050132 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B27
+    void:entities 21448 ;
+    void:triples 697614 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B27_LGA
+    void:entities 9232 ;
+    void:triples 101594 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B27_SA1_SA
+    void:entities 32728 ;
+    void:triples 360050 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B28
+    void:entities 144774 ;
+    void:triples 4708170 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B28_LGA
+    void:entities 62316 ;
+    void:triples 685518 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B28_SA1_SA
+    void:entities 220914 ;
+    void:triples 2430096 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B29
+    void:entities 21448 ;
+    void:triples 697614 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B29_LGA
+    void:entities 9232 ;
+    void:triples 101594 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B29_SA1_SA
+    void:entities 32728 ;
+    void:triples 360050 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B30
+    void:entities 53620 ;
+    void:triples 1616906 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B30_LGA
+    void:entities 11540 ;
+    void:triples 126982 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B30_SA1_SA
+    void:entities 81820 ;
+    void:triples 900062 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B31
+    void:entities 88473 ;
+    void:triples 2667813 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B31_LGA
+    void:entities 19041 ;
+    void:triples 209493 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B31_SA1_SA
+    void:entities 135003 ;
+    void:triples 1485075 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B32
+    void:entities 193032 ;
+    void:triples 5820534 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B32_LGA
+    void:entities 41544 ;
+    void:triples 457026 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B32_SA1_SA
+    void:entities 294552 ;
+    void:triples 3240114 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B33
+    void:entities 209118 ;
+    void:triples 6305568 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B33_LGA
+    void:entities 45006 ;
+    void:triples 495108 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B33_SA1_SA
+    void:entities 319098 ;
+    void:triples 3510120 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B34
+    void:entities 243971 ;
+    void:triples 7356475 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B34_LGA
+    void:entities 52507 ;
+    void:triples 577619 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B34_SA1_SA
+    void:entities 372281 ;
+    void:triples 4095133 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B35
+    void:entities 112602 ;
+    void:triples 3395364 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B35_LGA
+    void:entities 24234 ;
+    void:triples 266616 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B35_SA1_SA
+    void:entities 171822 ;
+    void:triples 1890084 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B36
+    void:entities 289548 ;
+    void:triples 8730738 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B36_LGA
+    void:entities 62316 ;
+    void:triples 685518 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B36_SA1_SA
+    void:entities 441828 ;
+    void:triples 4860150 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B37
+    void:entities 152817 ;
+    void:triples 4607949 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B37_LGA
+    void:entities 32889 ;
+    void:triples 361821 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B37_SA1_SA
+    void:entities 233187 ;
+    void:triples 2565099 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B38
+    void:entities 136731 ;
+    void:triples 4122915 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B38_LGA
+    void:entities 29427 ;
+    void:triples 323739 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B38_SA1_SA
+    void:entities 208641 ;
+    void:triples 2295093 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B39
+    void:entities 136731 ;
+    void:triples 4122915 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B39_LGA
+    void:entities 29427 ;
+    void:triples 323739 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B39_SA1_SA
+    void:entities 208641 ;
+    void:triples 2295093 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B40
+    void:entities 796257 ;
+    void:triples 26192130 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B40_LGA
+    void:entities 171369 ;
+    void:triples 2056470 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B40_SA1_SA
+    void:entities 1215027 ;
+    void:triples 14580450 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B41
+    void:entities 1085805 ;
+    void:triples 35717442 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B41_LGA
+    void:entities 233685 ;
+    void:triples 2804262 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B41_SA1_SA
+    void:entities 1656855 ;
+    void:triples 19882890 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B42
+    void:entities 965160 ;
+    void:triples 14074728 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B42_LGA
+    void:entities 207720 ;
+    void:triples 2492682 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B43
+    void:triples 4362162 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B43_LGA
+    void:entities 363510 ;
+    void:triples 4362162 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B44
+    void:entities 563010 ;
+    void:triples 16977996 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B44_LGA
+    void:entities 121170 ;
+    void:triples 1332912 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B44_SA1_SA
+    void:entities 859110 ;
+    void:triples 9451092 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B45
+    void:entities 804300 ;
+    void:triples 26457282 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B45_LGA
+    void:entities 173100 ;
+    void:triples 2077242 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B45_SA1_SA
+    void:entities 1227300 ;
+    void:triples 14728020 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B46
+    void:entities 289548 ;
+    void:triples 8730738 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B46_LGA
+    void:entities 62316 ;
+    void:triples 685518 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_B46_SA1_SA
+    void:entities 441828 ;
+    void:triples 4860150 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T01
+    void:entities 525492 ;
+    void:triples 7017600 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T01_LGA
+    void:entities 112464 ;
+    void:triples 1237146 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T02
+    void:entities 63696 ;
+    void:triples 773364 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T02_LGA
+    void:entities 13632 ;
+    void:triples 136362 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T03
+    void:entities 2388600 ;
+    void:triples 31897968 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T03_LGA
+    void:entities 511200 ;
+    void:triples 5623242 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T04
+    void:entities 1759602 ;
+    void:triples 25634400 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T04_LGA
+    void:entities 376584 ;
+    void:triples 4519050 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T05
+    void:entities 1146528 ;
+    void:triples 16703016 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T05_LGA
+    void:entities 245376 ;
+    void:triples 2944554 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T06
+    void:entities 1433160 ;
+    void:triples 20878728 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T06_LGA
+    void:entities 306720 ;
+    void:triples 3680682 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T07
+    void:entities 764352 ;
+    void:triples 10207716 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T07_LGA
+    void:entities 163584 ;
+    void:triples 1799466 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T08
+    void:entities 931554 ;
+    void:triples 12440226 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T08_LGA
+    void:entities 199368 ;
+    void:triples 2193090 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T09
+    void:entities 1624248 ;
+    void:triples 21690798 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T09_LGA
+    void:entities 347616 ;
+    void:triples 3823818 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T10
+    void:entities 955440 ;
+    void:triples 11759524 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T10_LGA
+    void:entities 113600 ;
+    void:triples 1249642 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T11
+    void:entities 557340 ;
+    void:triples 7442904 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T11_LGA
+    void:entities 119280 ;
+    void:triples 1312122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T12
+    void:entities 2547840 ;
+    void:triples 34024782 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T12_LGA
+    void:entities 545280 ;
+    void:triples 5998122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T13
+    void:entities 668808 ;
+    void:triples 8931468 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T13_LGA
+    void:entities 143136 ;
+    void:triples 1574538 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T14
+    void:entities 999999 ;
+    void:triples 13530513 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T14_LGA
+    void:entities 230040 ;
+    void:triples 2530482 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T15
+    void:entities 836010 ;
+    void:triples 11164314 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T15_LGA
+    void:entities 178920 ;
+    void:triples 1968162 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T16
+    void:entities 1433160 ;
+    void:triples 19138974 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T16_LGA
+    void:entities 306720 ;
+    void:triples 3373962 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T17
+    void:entities 1433160 ;
+    void:triples 19138974 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T17_LGA
+    void:entities 306720 ;
+    void:triples 3373962 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T18
+    void:entities 573264 ;
+    void:triples 7655766 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T18_LGA
+    void:entities 122688 ;
+    void:triples 1349610 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T19
+    void:entities 724542 ;
+    void:triples 9675750 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T19_LGA
+    void:entities 155064 ;
+    void:triples 1705746 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T20
+    void:entities 621036 ;
+    void:triples 8293512 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T20_LGA
+    void:entities 132912 ;
+    void:triples 1462074 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T21
+    void:entities 517530 ;
+    void:triples 6911274 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T21_LGA
+    void:entities 110760 ;
+    void:triples 1218402 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T22
+    void:entities 557340 ;
+    void:triples 7442904 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T22_LGA
+    void:entities 119280 ;
+    void:triples 1312122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T23
+    void:entities 557340 ;
+    void:triples 7442904 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T23_LGA
+    void:entities 119280 ;
+    void:triples 1312122 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T24
+    void:entities 1656096 ;
+    void:triples 22116396 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T24_LGA
+    void:entities 354432 ;
+    void:triples 3898794 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T25
+    void:entities 999999 ;
+    void:triples 13924137 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T25_LGA
+    void:entities 265824 ;
+    void:triples 2924106 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T26
+    void:entities 302556 ;
+    void:triples 4040472 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T26_LGA
+    void:entities 64752 ;
+    void:triples 712314 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T27
+    void:entities 199050 ;
+    void:triples 2658234 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T27_LGA
+    void:entities 42600 ;
+    void:triples 468642 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T28
+    void:entities 451629 ;
+    void:triples 6036411 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T28_LGA
+    void:entities 97128 ;
+    void:triples 1068450 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T29
+    void:entities 3105180 ;
+    void:triples 41467728 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T29_LGA
+    void:entities 664560 ;
+    void:triples 7310202 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T30
+    void:entities 2627460 ;
+    void:triples 38277822 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T30_LGA
+    void:entities 562320 ;
+    void:triples 6747882 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T31
+    void:entities 3582900 ;
+    void:triples 52196862 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T31_LGA
+    void:entities 766800 ;
+    void:triples 9201642 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T32
+    void:entities 4012848 ;
+    void:triples 57097314 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T32_LGA
+    void:entities 745216 ;
+    void:triples 8942634 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T33
+    void:entities 501606 ;
+    void:triples 6698622 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T33_LGA
+    void:entities 107352 ;
+    void:triples 1180914 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T34
+    void:entities 238860 ;
+    void:triples 3189864 ;
+    a void:Dataset .
+abs-dataset:ABS_CENSUS2011_T34_LGA
+    void:entities 51120 ;
+    void:triples 562362 ;
+    a void:Dataset .
+abs-dataset:ABS_ERP_COB_MAG_SEXRATIO
+    void:entities 5016 ;
+    void:triples 50702 ;
+    a void:Dataset .
+abs-dataset:ABS_ERP_COB_STATE
+    void:entities 457623 ;
+    void:triples 4576272 ;
+    a void:Dataset .
+abs-dataset:ABS_NOM_VISA_CY
+    void:entities 3456 ;
+    void:triples 31146 ;
+    a void:Dataset .
+abs-dataset:ABS_NOM_VISA_FY
+    void:entities 3024 ;
+    void:triples 27258 ;
+    a void:Dataset .
+abs-dataset:ABS_NRP9_ASGS
+    void:entities 4805152 ;
+    void:triples 45507737 ;
+    a void:Dataset .
+abs-dataset:ABS_NRP9_LGA
+    void:entities 971744 ;
+    void:triples 9154729 ;
+    a void:Dataset .
+abs-dataset:ALC
+    void:entities 1230 ;
+    void:triples 12350 ;
+    a void:Dataset .
+abs-dataset:BOP
+    void:entities 277808 ;
+    void:triples 2651209 ;
+    a void:Dataset .
+abs-dataset:CAPEX
+    void:entities 46432 ;
+    void:triples 521126 ;
+    a void:Dataset .
+abs-dataset:CPI
+    void:entities 562203 ;
+    void:triples 5624684 ;
+    a void:Dataset .
+abs-dataset:ERP_COB
+    void:entities 272832 ;
+    void:triples 2728362 ;
+    a void:Dataset .
+abs-dataset:ERP_QUARTERLY
+    void:entities 999999 ;
+    void:triples 10017846 ;
+    a void:Dataset .
+abs-dataset:HF
+    void:entities 822598 ;
+    void:triples 9604121 ;
+    a void:Dataset .
+abs-dataset:IAS_2
+    void:entities 1152 ;
+    void:triples 10488 ;
+    a void:Dataset .
+abs-dataset:IAS_3
+    void:entities 130 ;
+    void:triples 966 ;
+    a void:Dataset .
+abs-dataset:IAS_4
+    void:entities 404 ;
+    void:triples 3356 ;
+    a void:Dataset .
+abs-dataset:IAS_5
+    void:entities 158 ;
+    void:triples 1336 ;
+    a void:Dataset .
+abs-dataset:IIP_DSID5671
+    void:entities 5570982 ;
+    void:triples 77791334 ;
+    a void:Dataset .
+abs-dataset:INTERSTATEMIGRATION_CY
+    void:entities 23409 ;
+    void:triples 234132 ;
+    a void:Dataset .
+abs-dataset:INTERSTATEMIGRATION_FY
+    void:entities 23409 ;
+    void:triples 257625 ;
+    a void:Dataset .
+abs-dataset:ITPI_EXPORT
+    void:entities 54259 ;
+    void:triples 439036 ;
+    a void:Dataset .
+abs-dataset:ITPI_IMPORT
+    void:entities 68382 ;
+    void:triples 556451 ;
+    a void:Dataset .
+abs-dataset:LABOUR_PRICE_INDEX
+    void:entities 14534 ;
+    void:triples 174480 ;
+    a void:Dataset .
+abs-dataset:LENDING_BY_PURPOSE
+    void:entities 683786 ;
+    void:triples 7851061 ;
+    a void:Dataset .
+abs-dataset:LENDING_FINANCE_SUMMARY
+    void:entities 10472 ;
+    void:triples 83818 ;
+    a void:Dataset .
+abs-dataset:LENDING_INDUSTRY
+    void:entities 967707 ;
+    void:triples 11176877 ;
+    a void:Dataset .
+abs-dataset:LF
+    void:entities 2919143 ;
+    void:triples 32937009 ;
+    a void:Dataset .
+abs-dataset:MERCH_EXP
+    void:entities 5442080 ;
+    void:triples 54421136 ;
+    a void:Dataset .
+abs-dataset:MERCH_IMP
+    void:entities 4676560 ;
+    void:triples 46765894 ;
+    a void:Dataset .
+abs-dataset:MINING_EXPLORATION
+    void:entities 20610 ;
+    void:triples 230294 ;
+    a void:Dataset .
+abs-dataset:NETOVERSEASMIGRATION_CY
+    void:entities 8100 ;
+    void:triples 81042 ;
+    a void:Dataset .
+abs-dataset:NETOVERSEASMIGRATION_FY
+    void:entities 7290 ;
+    void:triples 80274 ;
+    a void:Dataset .
+abs-dataset:NEWMVSALES
+    void:entities 79704 ;
+    void:triples 798486 ;
+    a void:Dataset .
+abs-dataset:PETROLEUM_EXPLORATION
+    void:entities 22656 ;
+    void:triples 289653 ;
+    a void:Dataset .
+abs-dataset:POPULATION_CLOCK_FY
+    void:entities 81 ;
+    void:triples 690 ;
+    a void:Dataset .
+abs-dataset:POP_PROJ_2011
+    void:entities 777600 ;
+    void:triples 9331242 ;
+    a void:Dataset .
+abs-dataset:POP_PROJ_REGION_2012_2061
+    void:entities 21999978 ;
+    void:triples 286000638 ;
+    a void:Dataset .
+abs-dataset:PPI_1
+    void:entities 125902 ;
+    void:triples 1012773 ;
+    a void:Dataset .
+abs-dataset:PPI_SOP
+    void:entities 27957 ;
+    void:triples 313579 ;
+    a void:Dataset .
+abs-dataset:QBIS
+    void:entities 155177 ;
+    void:triples 1728381 ;
+    a void:Dataset .
+abs-dataset:RES_DWELL
+    void:entities 2676 ;
+    void:triples 21795 ;
+    a void:Dataset .
+abs-dataset:RES_DWEL_ST
+    void:entities 495 ;
+    void:triples 4134 ;
+    a void:Dataset .
+abs-dataset:RES_PROP_INDEX
+    void:entities 3861 ;
+    void:triples 35361 ;
+    a void:Dataset .
+abs-dataset:RT
+    void:entities 470578 ;
+    void:triples 4754947 ;
+    a void:Dataset .
+abs-dataset:TOUR_ACCOM
+    void:entities 2152128 ;
+    void:triples 22932857 ;
+    a void:Dataset .
+

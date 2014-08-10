@@ -1,0 +1,334 @@
+prefix void: <http://rdfs.org/ns/void#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix qb: <http://purl.org/linked-data/cube#>
+prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix sd: <http://www.w3.org/ns/sparql-service-description#>
+prefix : <http://abs.270a.info/void.ttl#>
+prefix abs-graph: <http://abs.270a.info/graph/>
+prefix abs-dataset: <http://abs.270a.info/dataset/>
+prefix bis-dataset: <http://bis.270a.info/dataset/>
+prefix uis-dataset: <http://uis.270a.info/dataset/>
+prefix oecd-dataset: <http://oecd.270a.info/dataset/>
+prefix bfs-dataset: <http://bfs.270a.info/dataset/>
+prefix fao-dataset: <http://fao.270a.info/dataset/>
+prefix ecb-dataset: <http://ecb.270a.info/dataset/>
+prefix imf-dataset: <http://imf.270a.info/dataset/>
+prefix frb-dataset: <http://frb.270a.info/dataset/>
+prefix worldbank-dataset: <http://worldbank.270a.info/dataset/>
+prefix transparency-dataset: <http://transparency.270a.info/dataset/>
+
+CONSTRUCT {
+<http://csarven.ca/#i>
+    rdfs:label "Sarven Capadisli"@en ;
+    .
+
+<http://creativecommons.org/publicdomain/zero/1.0/>
+    rdfs:label "CC0 1.0 Universal"@en ;
+    .
+
+<http://abs.270a.info/void.ttl>
+    a void:DatasetDescription ;
+    dcterms:title "A VoiD Description of the abs.270a.info Dataset"@en ;
+    dcterms:creator <http://csarven.ca/#i> ;
+    foaf:primaryTopic abs-dataset:abs .
+
+
+abs-dataset:abs
+    a void:Dataset ;
+    dcterms:title "Australian Bureau of Statistics datasets"@en ;
+    foaf:homepage <http://abs.270a.info/> ;
+    dcterms:source <http://abs.gov.au/> ;
+    dcterms:publisher <http://csarven.ca/#i> ;
+    dcterms:modified "2014-08-08"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    void:subset
+        abs-dataset:void ,
+        ?voidDataset ;
+    void:triples 2357400000 ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Census> ;
+    void:sparqlEndpoint <http://abs.270a.info/sparql> ;
+    void:feature <http://www.w3.org/ns/formats/RDF_XML> ,
+                 <http://www.w3.org/ns/formats/Turtle> ;
+    void:dataDump <http://abs.270a.info/data/data.tar.gz> ;
+    void:dataDump <http://abs.270a.info/data/meta.tar.gz> ;
+    .
+
+<http://abs.270a.info/sparql>
+    rdfs:label "ABS SPARQL Endpoint"@en ;
+    .
+<http://abs.270a.info/>
+    rdfs:label "Australian Bureau of Statistics (ABS) Linked Dataspace"@en ;
+    .
+
+abs-dataset:void
+    a sd:Graph, void:Dataset ;
+    dcterms:title "SD+VoID triples"@en ;
+    void:triples 1000 ;
+    void:dataDump <http://abs.270a.info/void.ttl> ;
+    .
+
+
+?voidDataset
+    a sd:Graph ;
+    dcterms:isPartOf abs-dataset:abs ;
+    void:triples ?dataSetTriples ;
+    dcterms:license ?dataSetLicense ;
+    dcterms:title ?dataSetTitle ;
+    dcterms:identifier ?dataSetIdentifier ;
+    sd:name ?dataSetInGraph ;
+    sd:graph ?voidDataset ;
+    .
+
+:service
+    a sd:Service ;
+    sd:endpoint <http://abs.270a.info/sparql> ;
+    sd:supportedLanguage sd:SPARQL11Query ;
+    sd:feature sd:UnionDefaultGraph ;
+    sd:defaultDatasetDescription :defaultDatasetDescription ;
+    .
+
+:defaultDatasetDescription
+    a sd:Dataset ;
+    dcterms:title "ABS Linked Data"@en ;
+    dcterms:description "ABS Linked Data"@en ;
+    void:triples 2357400000 ;
+
+    sd:defaultGraph :defaultGraph ;
+
+    sd:namedGraph :namedGraphVoID ;
+
+    sd:namedGraph ?voidDataset ;
+    .
+
+:defaultGraph
+    a sd:Graph, void:Dataset ;
+    dcterms:title "ABS SPARQL Endpoint Description"@en ;
+    dcterms:description "Contains a copy of this SD+VoID file!"@en ;
+    void:triples 2357400000 ;
+    .
+:namedGraphVoID
+    sd:name abs-graph:void ;
+    sd:graph abs-dataset:void ;
+    .
+
+
+:linkset-abs-worldbank
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget worldbank-dataset:worldbank ;
+    void:triples 99 ;
+    .
+worldbank-dataset:worldbank
+    a void:Dataset ;
+    void:sparqlEndpoint <http://worldbank.270a.info/sparql> ;
+    foaf:homepage <http://worldbank.270a.info/> ;
+    .
+:linkset-abs-transparency
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget transparency-dataset:transparency ;
+    void:triples 99 ;
+    .
+transparency-dataset:transparency
+    a void:Dataset ;
+    void:sparqlEndpoint <http://transparency.270a.info/sparql> ;
+    foaf:homepage <http://transparency.270a.info/> ;
+    .
+:linkset-abs-bfs
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget bfs-dataset:bfs ;
+    void:triples 99 ;
+    .
+bfs-dataset:bfs
+    a void:Dataset ;
+    void:sparqlEndpoint <http://bfs.270a.info/sparql> ;
+    foaf:homepage <http://bfs.270a.info/> ;
+    .
+:linkset-abs-fao
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget fao-dataset:fao ;
+    void:triples 99 ;
+    .
+fao-dataset:fao
+    a void:Dataset ;
+    void:sparqlEndpoint <http://fao.270a.info/sparql> ;
+    foaf:homepage <http://fao.270a.info/> ;
+    .
+:linkset-abs-ecb
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget ecb-dataset:ecb ;
+    void:triples 99 ;
+    .
+ecb-dataset:ecb
+    a void:Dataset ;
+    void:sparqlEndpoint <http://ecb.270a.info/sparql> ;
+    foaf:homepage <http://ecb.270a.info/> ;
+    .
+:linkset-abs-imf
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget imf-dataset:imf ;
+    void:triples 99 ;
+    .
+imf-dataset:imf
+    a void:Dataset ;
+    void:sparqlEndpoint <http://imf.270a.info/sparql> ;
+    foaf:homepage <http://imf.270a.info/> ;
+    .
+:linkset-abs-oecd
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget oecd-dataset:oecd ;
+    void:triples 0 ;
+    .
+oecd-dataset:oecd
+    a void:Dataset ;
+    void:sparqlEndpoint <http://oecd.270a.info/sparql> ;
+    foaf:homepage <http://oecd.270a.info/> ;
+    .
+:linkset-abs-frb
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget frb-dataset:frb ;
+    void:triples 0 ;
+    .
+frb-dataset:frb
+    a void:Dataset ;
+    void:sparqlEndpoint <http://frb.270a.info/sparql> ;
+    foaf:homepage <http://frb.270a.info/> ;
+    .
+:linkset-abs-uis
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget uis-dataset:uis ;
+    void:triples 495 ;
+    .
+uis-dataset:uis
+    rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://uis.270a.info/sparql> ;
+    foaf:homepage <http://uis.270a.info/> ;
+    .
+:linkset-abs-bis
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget bis-dataset:bis ;
+    void:triples 198 ;
+    .
+bis-dataset:bis
+    rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://bis.270a.info/sparql> ;
+    foaf:homepage <http://bis.270a.info/> ;
+    .
+:linkset-abs-dbpedia
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget <http://dbpedia.org/void/Dataset> ;
+    void:triples 99 ;
+    .
+:linkset-abs-geonames
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget <http://sws.geonames.org/> ;
+    void:triples 99 ;
+    .
+:linkset-abs-nasa
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget <http://data.nasa.gov/> ;
+    void:triples 0 ;
+    .
+:linkset-vis-eurostat
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget abs-dataset:abs ;
+    void:objectsTarget <http://eurostat.linked-statistics.org/void.ttl#eurostat> ;
+    void:triples 99 ;
+    .
+
+<http://dbpedia.org/void/Dataset>
+    rdf:type void:Dataset ;
+    dcterms:title "DBpedia"@en ;
+    #TODO: What's the count?
+    void:sparqlEndpoint <http://dbpedia.org/sparql> ;
+    foaf:homepage <http://dbpedia.org/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://sws.geonames.org/>
+    rdf:type void:Dataset ;
+    dcterms:title "Geonames"@en ;
+    #TODO: What's the count?
+    foaf:homepage <http://sws.geonames.org/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://data.nasa.gov/>
+    rdf:type void:Dataset ;
+    dcterms:title "NASA"@en ;
+    #TODO: What's the count?
+    foaf:homepage <http://data.nasa.gov/> ;
+    .
+<http://eurostat.linked-statistics.org/void.ttl#eurostat>
+    rdf:type void:Dataset ;
+    dcterms:title "Eurostat"@en ;
+    void:sparqlEndpoint <http://eurostat.linked-statistics.org/sparql> ;
+    #TODO: What's the count?
+    foaf:homepage <http://eurostat.linked-statistics.org/> ;
+    .
+
+
+?s ?p ?o .
+
+}
+
+WHERE {
+    GRAPH abs-graph:void {
+        ?s ?p ?o .
+        OPTIONAL {
+            ?s a void:Dataset .
+            ?s void:triples ?triples .
+            BIND(?s AS ?voidDataset) .
+            BIND(?triples AS ?dataSetTriples) .
+        }
+    }
+
+    OPTIONAL {
+        GRAPH ?dataSetInGraph {
+            ?s a qb:DataSet .
+            ?s qb:structure ?structure .
+        }
+        GRAPH abs-graph:meta {
+            ?structure skos:prefLabel ?dataSetTitle .
+        }
+    }
+
+    OPTIONAL {
+        ?s a prov:Entity .
+        ?s dcterms:license ?dataSetLicense .
+    }
+}
+
